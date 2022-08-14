@@ -5,7 +5,7 @@ double[,] array = new double[rows, columns];
 FillArray(array, -100, 100);
 PrintArray(array);
 
-void FillArray (double[,] array, int startNumber = -50, int finishNumber = 50)
+void FillArray (double[,] array, int startNumber = -10, int finishNumber = 10)
 {
     Random rand = new Random();
     int rows = array.GetLength(0);
